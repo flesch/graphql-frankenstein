@@ -1,0 +1,37 @@
+{
+  "name": "graphql-frankenstein",
+  "description": "Stitch together GraphQL fenced code blocks inside GitHub issues as an executable schema.",
+  "version": "1.0.0",
+  "author": {
+    "name": "John Flesch",
+    "email": "john@fles.ch",
+    "url": "https://github.com/flesch"
+  },
+  "bin": {
+    "frankenstein": "cli.js",
+    "frank": "cli.js"
+  },
+  "bugs": "https://github.com/flesch/graphql-frankenstein/issues",
+  "dependencies": {
+    "arr-flatten": "^1.0.1",
+    "gfm-code-blocks": "^1.0.0",
+    "gh-got": "^5.0.0",
+    "graphql": "^0.9.3",
+    "meow": "^3.7.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/flesch/graphql-frankenstein",
+  "keywords": [
+    "build",
+    "graphql",
+    "schema"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "flesch/graphql-frankenstein",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

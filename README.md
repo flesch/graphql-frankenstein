@@ -2,7 +2,7 @@
 
 Stitch together GraphQL fenced code blocks inside GitHub issues as an executable schema.
 
-My team is using GitHub Issues to collaborate on different parts of our GraphQL schema — each distinct part of the schema includes a fenced code block, allowing us to build our schema in pieces. See [this repo's issues](https://github.com/flesch/graphql-frankenstein/issues) for an example of how this looks.
+My team is using GitHub Issues to collaborate on different parts of our GraphQL schema. Each distinct part of the schema includes a fenced code block, allowing us to build our schema in pieces. See [this repo's issues](https://github.com/flesch/graphql-frankenstein/issues) for an example of how this looks.
 
 **graphql-frankenstein** will grab each `graphql` fenced code block across a repo's issue and build a working schema.
 

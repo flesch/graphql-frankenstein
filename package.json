@@ -1,7 +1,7 @@
 {
   "name": "graphql-frankenstein",
   "description": "Stitch together GraphQL fenced code blocks inside GitHub issues as an executable schema.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "John Flesch",
     "email": "john@fles.ch",

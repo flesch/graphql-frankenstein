@@ -44,12 +44,13 @@ $ frankenstein --help
     $ frank <repository> -l <labels>
 
   Options
-    --labels, -l  A comma separated list of issue labels.
+    --labels, -l   A comma separated list of issue labels.
+    --verbose, -v  Print errors instead of failing silently.
 
-	Examples
-      $ frankenstein flesch/graphql-frankenstein --labels "#frankenstein"
-      $ frank flesch/graphql-frankenstein -l frankenstein,publish
-      $ frankenstein flesch/graphql-frankenstein -l publish > schema.graphql
+  Examples
+    $ frankenstein flesch/graphql-frankenstein --labels "#frankenstein"
+    $ frank flesch/graphql-frankenstein -l frankenstein,publish
+    $ frankenstein flesch/graphql-frankenstein -l publish > schema.graphql
 
 ```
 

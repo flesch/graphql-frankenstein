@@ -12,8 +12,8 @@ const frank = meow(`
 	  $ frankenstein <repository> --labels <labels>
 
   Options
-    --labels, -l  A comma separated list of issue labels.
-    --verbose     Print errors instead of failing silently.
+    --labels, -l   A comma separated list of issue labels.
+    --verbose, -v  Print errors instead of failing silently.
 
 	Examples
     $ frankenstein flesch/graphql-frankenstein --labels "#frankenstein"
